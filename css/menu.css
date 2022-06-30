@@ -70,6 +70,10 @@ section {
   color: #fff;
   border-radius: 1rem;
 }
+@media (max-width: 52.5em) {
+  section{
+    min-width:35rem
+  }
 
 img {
   border-top-left-radius: 1rem;
