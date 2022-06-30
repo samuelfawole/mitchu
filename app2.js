@@ -1,4 +1,4 @@
-(function () {
+;(function () {
   init()
 
   var g_containerInViewport
@@ -53,3 +53,4 @@
     }
   }
 })()
+
