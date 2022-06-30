@@ -18,7 +18,7 @@
         const stikyContainerHeight = container.querySelector('main').scrollWidth
         container.setAttribute(
           'style',
-          'height: ' + stikyContainerHeight + 'px'
+          'height: ' + stikyContainerHeight / 2+ 'px'
         )
       })
   }
