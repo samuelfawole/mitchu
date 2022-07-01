@@ -59,6 +59,7 @@ section {
 @media (max-width: 52.5em){
   section{
     min-width: 50vw;
+    height: 40vh;
 }
 
 img {
