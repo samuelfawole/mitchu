@@ -10,6 +10,21 @@ body {
 html {
   font-size: 62.5%;
 }
+@media (max-width: 56.25em) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 35.5em) {
+  html {
+    font-size: 56.5%;
+  }
+}
+@media (max-width: 30em) {
+  html {
+    font-size: 46%;
+  }
+}
 
 body {
   background-color: #000;
@@ -54,12 +69,6 @@ section {
   background-color: #333;
   color: #fff;
   border-radius: 1rem;
-}
-
-@media (max-width: 52.5em){
-  section{
-    min-width: 50vw;
-    height: 40vh;
 }
 
 img {
